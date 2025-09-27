@@ -25,7 +25,7 @@ dofile("commands_"..game..".lua")
 local max_cmd_id = #command_names - 1
 
 os.execute("mkdir "..game)
-file = io.open(game.."/script_pointers_".."_"..language..".json","w")
+file = io.open(game.."/script_pointers_"..language..".json","w")
 
 file:write("[\n")
 
