@@ -11,6 +11,15 @@ local start_script_pointers = {
         French = 0x20F359C
     },
     p = {
+        EnglishRev00 = 0x20EAC58,
+        EnglishRev01 = 0x20EAC58,
+        EnglishRev10 = 0x20EAC58,
+        French = 0x020EACE0,
+        German = 0x020EACB0,
+        Italian = 0x020EAC74,
+        Japanese = 0x020EA32C,
+        Korean = 0x020EB6E0,
+        Spanish = 0x020EACEC
     },
     hgss = {
         English = 0x20FAD00
@@ -18,8 +27,8 @@ local start_script_pointers = {
 
 }
 
-local game = "hgss"
-local language = "English"
+local game = "p"
+local language = "Spanish"
 
 dofile("commands_"..game..".lua")
 local max_cmd_id = #command_names - 1
