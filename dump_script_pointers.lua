@@ -12,9 +12,7 @@ local start_script_pointers = {
 		Korean = 0x20EEBA8
     },
     p = {
-        EnglishRev00 = 0x20EAC58,
-        EnglishRev01 = 0x20EAC58,
-        EnglishRev10 = 0x20EAC58,
+        English = 0x20EAC58,
         French = 0x020EACE0,
         German = 0x020EACB0,
         Italian = 0x020EAC74,
