@@ -8,7 +8,8 @@ local start_script_pointers = {
         German = 0x20F356C,
         Spanish = 0x20F35A8,
         Italian = 0x20F3510,
-        French = 0x20F359C
+        French = 0x20F359C,
+		Korean = 0x20EEBA8
     },
     p = {
         EnglishRev00 = 0x20EAC58,
@@ -27,8 +28,8 @@ local start_script_pointers = {
 
 }
 
-local game = "p"
-local language = "Spanish"
+local game = "dp"
+local language = "Korean"
 
 dofile("commands_"..game..".lua")
 local max_cmd_id = #command_names - 1
